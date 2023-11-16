@@ -1,15 +1,14 @@
+
 import "./App.css";
 
-
-import Incre from "./components/Incre";
-function App()
-{
-  return(
+import Form from "./components/Form"; 
+function App() {
+  return (
     <div className="App">
-      <Incre />
-     
-     
+      <Form />
+      
     </div>
   );
 }
 export default App;
+
