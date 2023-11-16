@@ -1,13 +1,10 @@
-
-
-
 import "./App.css";
-import Reactapp2 from "./components/Reactapp2";
+import Reactapp3 from "./components/Reactapp3";
 function App()
 {
   return(
     <div className="App">
-      <Reactapp2/>
+      <Reactapp3/>
     </div>
   );
 }
