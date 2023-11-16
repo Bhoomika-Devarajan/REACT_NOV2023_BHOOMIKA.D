@@ -1,10 +1,12 @@
 import "./App.css";
-import Reactapp3 from "./components/Reactapp3";
+import Props from "./components/Props";
+import Pro1 from "./components/Pro1";
 function App()
 {
   return(
     <div className="App">
-      <Reactapp3/>
+      
+      <Props name="bhoomi"/>
     </div>
   );
 }
