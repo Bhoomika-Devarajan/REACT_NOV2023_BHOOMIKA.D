@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  
+  
+}
+body{
+  background-color: black;
+}
+h1{
+  color:aliceblue
+}
+button{
+  background-color: blueviolet;
 }
 
 .App-logo {

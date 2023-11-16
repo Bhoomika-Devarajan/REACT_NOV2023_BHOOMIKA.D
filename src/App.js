@@ -1,11 +1,14 @@
-
 import "./App.css";
-import Pro2 from "./components/Pro2";
+
+
+import Incre from "./components/Incre";
 function App()
 {
   return(
     <div className="App">
-      <Pro2 />
+      <Incre />
+     
+     
     </div>
   );
 }
