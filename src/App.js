@@ -1,12 +1,11 @@
+
 import "./App.css";
-import Props from "./components/Props";
-import Pro1 from "./components/Pro1";
+import Pro2 from "./components/Pro2";
 function App()
 {
   return(
     <div className="App">
-      
-      <Props name="bhoomi"/>
+      <Pro2 />
     </div>
   );
 }
