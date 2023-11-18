@@ -1,14 +1,12 @@
 
-import "./App.css";
-
-import Form from "./components/Form"; 
+import './App.css';
+import Life from "./components/Life";
 function App() {
   return (
     <div className="App">
-      <Form />
-      
+     <Life />
     </div>
   );
 }
-export default App;
 
+export default App;
