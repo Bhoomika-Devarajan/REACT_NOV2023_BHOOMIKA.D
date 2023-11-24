@@ -1,15 +1,12 @@
-import React from "react";
-import './App.css';
-import store from "./components/store";
-import {Provider} from "react-redux";
-import {Counter} from "./components/Counter";
+import "./App.css";
+import Login from "./components/Login";
+
 function App() {
   return (
     <div className="App">
-      <Provider store={store}>
-      <Counter/>
-      </Provider>
+      <Login />
     </div>
   );
 }
+
 export default App;
