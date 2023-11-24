@@ -1,18 +1,15 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-import Get from "./components/Get";
-import Post from "./components/Post";
-import Put from "./components/Put";
-import Delete from "./components/Put";
+import store from "./components/store";
+import {Provider} from "react-redux";
+import {Counter} from "./components/Counter";
 function App() {
   return (
     <div className="App">
-      <Get />
-      <Post />
-      <Put />
-      <Delete/>
+      <Provider store={store}>
+      <Counter/>
+      </Provider>
     </div>
   );
 }
-
 export default App;
